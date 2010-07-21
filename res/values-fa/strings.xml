@@ -129,7 +129,7 @@
     <!-- Menu item to go back to the previous page -->
     <string name="back">بازگشت</string>
     <!-- Menu item to go to the next page (only useful if the user has previously hit back.) -->
-    <string name="forward">فوروارد</string>
+    <string name="forward">بعدی</string>
     <!-- Button label to confirm saving a bookmark. -->
     <string name="save">قبول</string>
     <!-- Button label to cancel saving a bookmark. -->
