@@ -118,8 +118,6 @@
     <!-- Label for an information field on an SSL Certificate Dialog -->
     <string name="expires_on">تاریخ انقضا:</string>
 
-    <!-- Dialog that is shown while we are retrieving the login creds from the system -->
-    <string name="retrieving_creds_dlg_msg">در حال دریافت اطلاعات ورود\u2026</string>
     <!-- Toast informing the user that loading has stopped for the current page. -->
     <string name="stopping">در حال قطع\u2026</string>
     <!-- Menu item to stop the current page from loading. -->
@@ -166,8 +164,6 @@
     <string name="bookmark_needs_title">"نشانک باید یک نام داشته باشد."</string>
         <!-- Error that appears in the title of Bookmark dialog when user selects OK with empty Location field -->
     <string name="bookmark_needs_url">"نشانک باید یک موقعیت داشته باشد."</string>
-        <!-- Error that appears in the title of Bookmark dialog when user selects OK with empty Name & Location fields -->
-    <string name="empty_bookmark">"نمی‌توان نشانک خالی ایجاد کرد."</string>
         <!-- Error that appears in the title of Bookmark dialog when user selects OK with invalid URL -->
     <string name="bookmark_url_not_valid">نشانی معتبر نیست.</string>
         <!-- Title of a confirmation dialog when the user deletes a bookmark-->
@@ -194,9 +190,6 @@
     <string name="delete_bookmark_warning">نشانک \"<xliff:g id="bookmark">%s</xliff:g>\" حذف خواهد شد.</string>
     <!-- Context Menu item to open the selected link in a new window -->
     <string name="open_in_new_window">در یک پنجرهٔ جدید باز کن</string>
-    <!-- Appears in Current windows screen as label on blank + window; user 
-            selects this window to open a new browser window -->
-    <string name="new_window">پنجرهٔ جدید</string>
     <!-- Menu item to open a dialog which allows the user to enter a url or do search-->
     <string name="goto_dot">برو</string>
     <!-- Menu item that opens up a dialog which allows the user to provide a
@@ -204,27 +197,10 @@
     <string name="find_dot">در صفحه بگرد</string>
     <!-- Menu item to switch to text selection mode for copy and paste. -->
     <string name="select_dot">انتخاب متن</string>
-    <!-- Menu item which opens a screen which shows all the currently open
-            windows, and also allows them to create a new one. -->
-    <string name="view_tabs">مشاهدهٔ کلی پنجره‌ها</string>
-    <!-- Menu item which opens a screen which shows all the currently open
-            windows, and also allows them to create a new one. This is a shorter
-            alternate version of "view_tabs"-->
-    <string name="view_tabs_condensed">پنجره‌ها</string>
     <!-- Title of current windows screen; appears in title bar -->
     <string name="tab_picker_title">پنجره‌های کنونی</string>
-    <!-- Context Menu item to view the selected window on the window picker
-            screen -->
-    <string name="tab_picker_view_tab">مشاهده</string>
-    <!-- Menu item on the window picker screen to open a new window -->
-    <string name="tab_picker_new_tab">پنجرهٔ جدید</string>
     <!-- Context Menu item to close the currently selected window -->
     <string name="tab_picker_remove_tab">ببند</string>
-    <!-- Context Menu item to bookmark the currently selected window -->
-    <string name="tab_picker_bookmark">نشانک</string>
-    <!-- Context Menu item from the bookmarks page to share the selected
-            bookmark  -->
-    <string name="tab_picker_send_url">اشتراک‌گذاری پیوند</string>
     <!-- Menu item to open the bookmarks page. This is a shorter version that
             is displayed with an icon -->
     <string name="bookmarks">نشانک‌ها</string>
@@ -436,12 +412,6 @@
     </string-array>
     <!-- Dialog box title -->
     <string name="pref_default_text_encoding_dialogtitle">کدگذاری متن</string>
-        <!-- FIXME: By Myself!  -->
-    <string name="pref_default_text_encoding_default">UTF-8</string>
-    <!-- Dialog box title -->
-    <string name="browserFrameRedirect">تغییر مسیر</string>
-    <!-- Dialog box message -->
-    <string name="browserFrame307Post">این صفحهٔ وب تغییر مسیر دارد. اطلاعات فرم‌های شما به مسیر جدید فرستاده شود؟</string>
     <!-- Title for a dialog displayed when the browser has a data connectivity
             problem -->
     <string name="browserFrameNetworkErrorLabel">مشکل با اتصال داده</string>
@@ -514,12 +484,6 @@
     <string name="download_menu_cancel">لغو بارگیری</string>
     <!-- Menu item -->
     <string name="download_menu_cancel_all">همهٔ بارگیری‌ها را لغو کن</string>
-    <!-- Menu item -->
-    <string name="download_menu_clear_all">فهرست را پاک کن</string>
-    <!-- Confirmation dialog title -->
-    <string name="download_clear_dlg_title">پاک کن</string>
-    <!-- Confirmation dialog message -->
-    <string name="download_clear_dlg_msg">همهٔ موارد از فهرست پاک خواهند شد و از حافظهٔ نهان مرورگر حذف خواهند شد.</string>
     <!-- Confirmation dialog title -->
     <string name="download_cancel_dlg_title">همهٔ بارگیری‌ها را لغو کن</string>
     <!-- Confirmation dialog message -->
@@ -542,9 +506,6 @@
             the user how to enable SD card storage -->
     <string name="download_sdcard_busy_dlg_msg">کارت حافظه مشغول است. برای شروع بارگیری، در اطلاع‌ها \"حافظهٔ USB را خاموش کن\" را انتخاب کنید.</string>
  
-    <!-- Message for a dialog informing the user that there is no application on
-            the phone that can open the file that was downloaded  -->
-    <string name="download_no_application">برای باز کردن این پرونده، هیچ برنامه‌ای پیدا نشد.</string>
     <!-- Label for a button to re-attempt downloading a file -->
     <string name="retry">سعی مجدد</string>
     <!-- Appears in Download history screen if there is no history -->
@@ -588,8 +549,6 @@
             interrupted and cannot be resumed -->
     <string name="download_precondition_failed">بارگیری قطع شد. نمی‌توان آنرا ادامه داد.</string>
 
-    <string name="activity_instrumentation_test_runner">تست اجرای مرورگر</string>
-    
     <!-- The description of the suggestion that lets the user search the web for the query currently
          in the text field. -->
     <string name="search_the_web">جستجوی وب</string>
@@ -600,7 +559,6 @@
     <string name="webstorage_outofspace_notification_text">برای خالی‌کردن فضا کلیک کنید.</string>
     <!-- Used in the Browser Settings -->
     <string name="webstorage_clear_data_title">پاک‌کردن داده‌های ذخیره‌شده</string>
-    <string name="webstorage_clear_data_summary">همهٔ پایگاه‌های دادهٔ مربوط به این وب‌گاه را پاک کن</string>
     <!-- Confirmation dialog when the user ask to clear all data for an origin -->
     <string name="webstorage_clear_data_dialog_title">پاک‌کردن داده‌های ذخیره‌شده</string>
     <string name="webstorage_clear_data_dialog_message">همهٔ داده‌های ذخیره‌شده توسط این وب‌گاه حذف خواهد شد</string>
@@ -633,10 +591,7 @@
     <string name="website_settings_clear_all_dialog_ok_button">حذف همهٔ داده‌ها</string>
     <string name="website_settings_clear_all_dialog_cancel_button">لغو</string>
 
-
-    <!-- Zoom-related strings --><skip />
-    <!-- Caption for a button that is shown when the zoom widget is showing.  The button's action will switch to the zoom overview mode. -->
-    <string name="zoom_overview_button_text">نمایش کلی</string>
-
+    <!-- Text in the progress dialog when we are setting an image as the home screen wallpaper. -->
+    <string name="progress_dialog_setting_wallpaper">در حال تنظیم کاغذ کاغذدیواری...</string>
 
 </resources>
