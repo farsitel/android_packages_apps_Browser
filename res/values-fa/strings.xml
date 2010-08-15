@@ -13,29 +13,29 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- The name of the application. -->
     <string name="application_name">مرورگر</string>
-
+<!-- Displayed with a file picker to choose a file to upload -->
+    <string name="choose_upload">پروندهٔ مورد نظر را برای بارگذاری انتخاب کنید.</string>
     <!-- Name of menu item of a new tab.  Also used in the title bar when displaying a new tab -->
     <string name="new_tab">پنجرهٔ جدید</string>
     <!-- Name of menu item which brings up a list of the currently active tabs -->
     <string name="active_tabs">پنجره‌ها</string>
     <!-- Name of tab containing bookmarks -->
-    <string name="tab_bookmarks">نشانک‌ها</string>
+    <string name="tab_bookmarks">‌نشانک‌ها</string>
     <!-- Name of tab containing the user's most visited websites, organized by number of visits -->
-    <string name="tab_most_visited">پر بازدید</string>
+    <string name="tab_most_visited">پر بازدیدترین</string>
     <!-- Name of tab containing the user's complete history, organized by time of last visit -->
     <string name="tab_history">تاریخچه</string>
     <!-- Toast shown when a history item's star is clicked, converting it to a bookmark -->
-    <string name="added_to_bookmarks">به نشانک‌ها اضافه شد</string>
+    <string name="added_to_bookmarks">به نشانک‌ها اضافه شد.</string>
     <!-- Toast shown when a history item's star is clicked off, removing its bookmark -->
-    <string name="removed_from_bookmarks">از نشانک‌ها حذف شد</string>
+    <string name="removed_from_bookmarks">از نشانک‌ها حذف شد.</string>
     <!-- Sign-in dialog -->
     <!-- This is used as the title of a dialog which is used to sign in to a secure site.
             "%s1"is replaced with the host and "%s2" with realm -->
-    <string name="sign_in_to">ورود به <xliff:g id="hostname">%s1</xliff:g> \"<xliff:g id="realm">%s2</xliff:g>\"</string>
+    <string name="sign_in_to">Sign in to <xliff:g id="hostname">%s1</xliff:g> \"<xliff:g id="realm">%s2</xliff:g>\"</string>
     <!-- Prompt for an input box that allows the user to enter their login name -->
     <string name="username">نام‌کاربری</string>
     <!-- Prompt for an input box that allows the user to enter their password -->
@@ -54,17 +54,17 @@
          found in the current page. -->
     <plurals name="matches_found">
         <!-- Case of no matches -->
-        <item quantity="zero">هیچ موردی پیدا نشد</item>
+        <item quantity="zero">هیچ مورد مشابهی پیدا نشد.</item>
         <!-- Case of one match -->
-        <item quantity="one">۱ مورد</item>
+        <item quantity="one">‏۱ مورد مشابه</item>
         <!-- Case of "few" (two) matches -->
-        <item quantity="few"><xliff:g id="number" example="2">%d</xliff:g> مورد</item>
+        <item quantity="few"><xliff:g id="number" example="2">‏‏%d</xliff:g>مورد مشابه</item>
         <!-- Case of several matches -->
-        <item quantity="other"><xliff:g id="number" example="137">%d</xliff:g> مورد</item>
+        <item quantity="other"><xliff:g id="number" example="137">‏‏%d</xliff:g> مورد مشابه</item>
     </plurals>
 
     <!-- Displayed on the title bar while the page is loading -->
-    <string name="title_bar_loading">در حال بار کردن\u2026</string>
+    <string name="title_bar_loading">در حال دریافت\u2026</string>
 
     <!-- Menu item -->
     <string name="page_info">اطلاعات صفحه</string>
@@ -77,7 +77,7 @@
     <string name="page_info_address">نشانی:</string>
 
     <!-- SSL Error dialogs -->
-    <string name="ssl_warnings_header">با گواهی تأیید امنیت برای این وب‌گاه مشکلی وجود دارد..</string>
+    <string name="ssl_warnings_header">در تأیید گواهی امنیت برای این وب‌گاه مشکلاتی وجود دارد.</string>
     <!-- Label for a button on an SSL error dialog that lets the user continue
             and view the page despite the error -->
     <string name="ssl_continue">ادامه</string>
@@ -88,9 +88,9 @@
     <string name="view_certificate">مشاهدهٔ گواهی تأیید</string>
 
     <!-- Message in an SSL Error dialog -->
-    <string name="ssl_untrusted">این گواهی تأیید از طرف یک گواهی‌گر امین امضا نشده است.</string>
+    <string name="ssl_untrusted">این گواهی، از منبع موثقی صادر نشده است.</string>
     <!-- Message in an SSL Error dialog -->
-    <string name="ssl_mismatch">نام وب‌گاه با نام گواهی تأیید مطابقیت ندارد.</string>
+    <string name="ssl_mismatch">نام وب‌گاه با نام گواهی تأیید مطابقت ندارد.</string>
     <!-- Message in an SSL Error dialog -->
     <string name="ssl_expired">این گواهی تأیید منقضی شده است.</string>
     <!-- Message in an SSL Error dialog -->
@@ -100,40 +100,40 @@
     <!-- Title for an SSL Certificate dialog -->
     <string name="ssl_certificate">گواهی تأیید امنیتی</string>
     <!-- Message on an SSL Certificate dialog -->
-    <string name="ssl_certificate_is_valid">این گواهی معتبر است.</string>
+    <string name="ssl_certificate_is_valid">این گواهی تأیید معتبر است.</string>
     <!-- Label for an information field on an SSL Certificate Dialog -->
-    <string name="issued_to">صادر‌شده برای:</string>
+    <string name="issued_to">‏صادر‌شده برای:</string>
     <!-- Label for an information field on an SSL Certificate Dialog -->
-    <string name="common_name">نام معمول:</string>
+    <string name="common_name">‏‏نام رایج:</string>
     <!-- Label for an information field on an SSL Certificate Dialog -->
-    <string name="org_name">موسسه:</string>
+    <string name="org_name">‏موسسه:</string>
     <!-- Label for an information field on an SSL Certificate Dialog -->
-    <string name="org_unit">واحد موسسه:</string>
+    <string name="org_unit">‏‏بخش:</string>
     <!-- Label for an information field on an SSL Certificate Dialog -->
     <string name="issued_by">صادرکننده:</string>
     <!-- Label for an information field on an SSL Certificate Dialog -->
     <string name="validity_period">اعتبار:</string>
     <!-- Label for an information field on an SSL Certificate Dialog -->
-    <string name="issued_on">دلیل صادر:</string>
+    <string name="issued_on">تاریخ صدور:</string>
     <!-- Label for an information field on an SSL Certificate Dialog -->
     <string name="expires_on">تاریخ انقضا:</string>
 
     <!-- Toast informing the user that loading has stopped for the current page. -->
-    <string name="stopping">در حال قطع\u2026</string>
+    <string name="stopping">توقف دریافت\u2026</string>
     <!-- Menu item to stop the current page from loading. -->
-    <string name="stop">قطع</string>
+    <string name="stop">توقف</string>
     <!-- Menu item to reload or refresh the current page. -->
-    <string name="reload">بازخوانی</string>
+    <string name="reload">دریافت مجدد</string>
     <!-- Menu item to go back to the previous page -->
-    <string name="back">بازگشت</string>
+    <string name="back">قبلی</string>
     <!-- Menu item to go to the next page (only useful if the user has previously hit back.) -->
     <string name="forward">بعدی</string>
     <!-- Button label to confirm saving a bookmark. -->
-    <string name="save">قبول</string>
+    <string name="save">ذخیره شود</string>
     <!-- Button label to cancel saving a bookmark. -->
-    <string name="do_not_save">لغو</string>
+    <string name="do_not_save">ذخیره نشود</string>
     <!-- Field label in Bookmark dialog box: refers to URL of the page to bookmark -->
-    <string name="location">موقعیت</string>
+    <string name="location">نشانی وب‌گاه</string>
     <!-- Field label in Bookmark dialog box: title that the user wishes to use for the bookmark -->
     <string name="name">نام</string>
     <!-- Initial value in Location field in Bookmark dialog box -->
@@ -143,39 +143,43 @@
     <!-- Menu item on the bookmarks page, to edit an existing bookmark -->
     <string name="edit_bookmark">ویرایش نشانک</string>
     <!-- Context menu item to create a shortcut to the bookmark on the desktop -->
-    <string name="create_shortcut_bookmark">افزودن میانبر به صفحهٔ اصلی</string>
+    <string name="create_shortcut_bookmark">Add shortcut to Home</string>
     <!-- Context menu item to open the currently highlighted bookmark -->
-    <string name="open_bookmark">باز کن</string>
+    <string name="open_bookmark">باز کردن نشانک</string>
     <!-- Menu item to remove the currently highlighted bookmark-->
     <string name="remove_bookmark">حذف نشانک</string>
     <!-- Context menu item to remove a history item from bookmarks -->
-    <string name="remove_from_bookmarks">حذف از نشانک‌ها</string>
+    <string name="remove_from_bookmarks">حذف از نشانک‌ها.</string>
     <!-- Menu item to remove the currently highlighted history entry from the list of previously visited sites -->
     <string name="remove_history_item">حذف از تاریخچه</string>
     <!-- Context menu item for setting the bookmark/history item as the homepage -->
-    <string name="set_as_homepage">انتخاب به عنوان صفحهٔ خانگی</string>
+    <string name="set_as_homepage">انتخاب به عنوان صفحهٔ اولیه</string>
     <!-- Toast informing the user that their action to save a bookmark has succeeded -->
     <string name="bookmark_saved">به نشانک‌ها اضافه شد.</string>
     <!-- Toast informing the user that their action to save a bookmark did not succeed -->
-    <string name="bookmark_not_saved">نمی‌توان نشانک را ذخیره کرد.</string>
+    <string name="bookmark_not_saved">نشانک را نمی‌توان ذخیره کرد.</string>
     <!-- Toast confirming that the homepage has been set -->
-    <string name="homepage_set">صفحهٔ خانگی تنظیم شد.</string>
+    <string name="homepage_set">صفحهٔ اولیه تنظیم شد.</string>
     <!-- Error that appears in the title of Bookmark dialog when user selects OK with empty Name field -->
-    <string name="bookmark_needs_title">"نشانک باید یک نام داشته باشد."</string>
+    <string name="bookmark_needs_title">‏«نشانک باید اسم داشته باشد.»</string>
         <!-- Error that appears in the title of Bookmark dialog when user selects OK with empty Location field -->
-    <string name="bookmark_needs_url">"نشانک باید یک موقعیت داشته باشد."</string>
-        <!-- Error that appears in the title of Bookmark dialog when user selects OK with invalid URL -->
-    <string name="bookmark_url_not_valid">نشانی معتبر نیست.</string>
+    <string name="bookmark_needs_url">‏«نشانک باید نشانی وب‌گاه داشته باشد.»</string>
+        <!-- Error that appears in the title of Bookmark dialog when user selects OK with empty Name & Location fields -->
+    <string name="bookmark_url_not_valid">نشانی اینترنتی معتبر نیست.</string>
+        <!-- Error that appears in the Bookmark dialog when user selects OK with a URL of a type we cannot bookmark -->
+    <string name="bookmark_cannot_save_url">این نشانی اینترنتی را نمی‌توان به نشانک‌ها اضافه کرد.</string>
+
         <!-- Title of a confirmation dialog when the user deletes a bookmark-->
     <string name="delete_bookmark">حذف</string>
+
     <!-- Menu item in the page that displays all bookmarks. It brings up a
             dialog that allows the user to bookmark the page that the browser is
             currently on, but is not visible because the bookmarks page is 
             showing. -->
-    <string name="bookmark_page">آخرین صفحهٔ مشاهده شده را نشانه‌گذاری کن</string>
+    <string name="bookmark_page">اضافه کردن آخرین صفحهٔ مشاهده شده به نشانک‌ها</string>
     <!-- Menu item in the page that displays all bookmarks.  Switches to
             a grid view which shows thumbnails -->
-    <string name="switch_to_thumbnails">نمایش بندانگشتی</string>
+    <string name="switch_to_thumbnails">نمایش وبی</string>
     <!-- Menu item in the page that displays all bookmarks.  Switches to a
             list view which shows titles -->
     <string name="switch_to_list">نمایش فهرستی</string>
@@ -187,20 +191,29 @@
     <string name="current_page">از\u0020</string>
     <!-- Confirmation dialog message confirming that the user wishes to delete
             the bookmark they selected for deletion -->
-    <string name="delete_bookmark_warning">نشانک \"<xliff:g id="bookmark">%s</xliff:g>\" حذف خواهد شد.</string>
+    <string name="delete_bookmark_warning">نشانک \"<xliff:g id="bookmark">%s</xliff:g>\" حذف شود؟</string>
     <!-- Context Menu item to open the selected link in a new window -->
-    <string name="open_in_new_window">در یک پنجرهٔ جدید باز کن</string>
+    <string name="open_in_new_window">در یک پنجرهٔ جدید باز شود.</string>
+    <!-- Appears in Current windows screen as label on blank + window; user 
+            selects this window to open a new browser window -->
+    <string name="new_window">پنجرهٔ جدید</string>
     <!-- Menu item to open a dialog which allows the user to enter a url or do search-->
-    <string name="goto_dot">برو</string>
+    <string name="goto_dot">رفتن به</string>
     <!-- Menu item that opens up a dialog which allows the user to provide a
             string and search for it on the page. -->
-    <string name="find_dot">در صفحه بگرد</string>
+    <string name="find_dot">در صفحه جستجو شود.</string>
     <!-- Menu item to switch to text selection mode for copy and paste. -->
     <string name="select_dot">انتخاب متن</string>
+    <!-- Menu item which opens a screen which shows all the currently open
+            windows, and also allows them to create a new one. -->
+    <string name="view_tabs">مشاهدهٔ کلی پنجره‌ها</string>
+    <!-- Menu item which opens a screen which shows all the currently open
+            windows, and also allows them to create a new one. This is a shorter
+            alternate version of "view_tabs"-->
     <!-- Title of current windows screen; appears in title bar -->
     <string name="tab_picker_title">پنجره‌های کنونی</string>
     <!-- Context Menu item to close the currently selected window -->
-    <string name="tab_picker_remove_tab">ببند</string>
+    <string name="tab_picker_remove_tab">بستن</string>
     <!-- Menu item to open the bookmarks page. This is a shorter version that
             is displayed with an icon -->
     <string name="bookmarks">نشانک‌ها</string>
@@ -209,7 +222,7 @@
     <!-- Menu item to display the History of previously visited pages -->
     <string name="history">تاریخچه</string>
     <!-- Menu item for viewing downloads from the browser -->
-    <string name="menu_view_download">بارگیری‌ها</string>
+    <string name="menu_view_download">پرونده‌های دریافتی</string>
     <!-- Context menu item for copying the url of the current page from the
             title bar -->
     <string name="copy_page_url">نسخه‌برداری از نشانی صفحه</string>
@@ -217,13 +230,13 @@
     <string name="share_page">اشتراک‌گذاری صفحه</string>
     <!-- Context Menu item open the currently selected link in the current
             window.-->
-    <string name="contextmenu_openlink">باز کن</string>
+    <string name="contextmenu_openlink">بازکردن</string>
     <!-- Context Menu item to open the currently selected link in a new
             window. -->
-    <string name="contextmenu_openlink_newwindow">در یک پنجرهٔ جدید باز کن</string>
+    <string name="contextmenu_openlink_newwindow">در یک پنجرهٔ جدید باز شود.</string>
     <!-- Context Menu item to create a bookmark for the url of the currently
             selected link. -->
-    <string name="contextmenu_bookmark_thislink">پیوند نشانک</string>
+    <string name="contextmenu_bookmark_thislink">اضافه کردن پیوند به نشانک‌ها</string>
     <!-- Context Menu item to save the webpage referred to by this link to the
             SD card (external storage) -->
     <string name="contextmenu_savelink">ذخیرهٔ پیوند</string>
@@ -234,14 +247,17 @@
     <string name="contextmenu_copy">نسخه‌برداری</string>
     <!-- Context Menu item to copy the url of the selected link to the
             clipboard -->
-    <string name="contextmenu_copylink">نسخه‌برداری از نشانی پیوند</string>
+    <string name="contextmenu_copylink">نسخه‌برداری از نشانی اینترنتی پیوند</string>
     <!-- Context Menu item to save the image to external storage -->
     <string name="contextmenu_download_image">ذخیرهٔ تصویر</string>
     <!-- Context Menu item to view the image by itself in the browser -->
     <string name="contextmenu_view_image">مشاهدهٔ تصویر</string>
+    <!-- Context Menu item to set the image as the home screen wallpaper -->
+    <string name="contextmenu_set_wallpaper">قراردادن به عنوان تصویر پس‌زمینه</string>
+
     <!-- Context Menu item to open the dialer app with the selected phone number
             -->
-    <string name="contextmenu_dial_dot">تماس بگیر\u2026</string>
+    <string name="contextmenu_dial_dot">تماس گرفتن با\u2026</string>
     <!-- Context Menu item to add the selected phone number to the address book.
             -->
     <string name="contextmenu_add_contact">افزودن آشنا</string>
@@ -258,11 +274,11 @@
 
     <!-- Used as the title of dialogs in the Browser Settings confirming that
             the user wants to clear (cache, history, or cookie data) -->
-    <string name="clear">پاک کن</string>
+    <string name="clear">پاک کردن</string>
 
     <!-- Part of a sentence that says "Replace <url of existing bookmark> with
             <url of new bookmark>?" -->
-    <string name="replace">جایگزین کن</string>
+    <string name="replace">جایگزین کردن</string>
 
     <!-- Title displayed when the bookmarks page is shown -->
     <string name="browser_bookmarks_page_bookmarks_text">نشانک‌ها</string>
@@ -274,89 +290,102 @@
     <!-- Settings screen, section title -->
     <string name="pref_content_title">تنظیمات محتوای صفحه</string>
     <!-- Settings label -->
-    <string name="pref_content_load_images">بارکردن تصاویر</string>
+    <string name="pref_content_load_images">نمایش تصاویر</string>
     <!-- Settings label -->
     <string name="pref_content_load_images_summary">نمایش تصاویر صفحه‌های وب</string>
     <!-- Settings label -->
-    <string name="pref_content_block_popups">بازداری از بازشدن پنجره‌های واشو</string>
+    <string name="pref_content_block_popups">جلوگیری از بازشدن پنجره‌های واشو</string>
     <!-- Settings label -->
     <string name="pref_content_javascript">فعال‌سازی جاوا اسکریپت</string>
     <!-- Settings label -->
     <string name="pref_content_open_in_background">بازکردن در پس‌زمینه</string>
     <!-- Settings label -->
-    <string name="pref_content_plugins">فعال‌سازی متصل‌شونده‌ها</string>
+    <string name="pref_content_plugins">فعال‌سازی افزونه</string>
+    <string-array name="pref_content_plugins_choices">
+        <item>همواره روشن</item>
+        <item>در صورت درخواست</item>
+        <item>خاموش</item>
+    </string-array>
+    <string-array name="pref_content_plugins_values" translatable="false">
+        <item>ON</item>
+        <item>ON_DEMAND</item>
+        <item>OFF</item>
+    </string-array>
+
     <!-- Settings summary -->
-    <string name="pref_content_open_in_background_summary">باز کردن پنجره‌های جدید قبل از پنجرهٔ کنونی</string>
+    <string name="pref_content_open_in_background_summary">باز کردن پنجره‌های جدید پشت پنجرهٔ کنونی</string>
     <!-- Settings label -->
-    <string name="pref_content_homepage">تنظیم صفحهٔ خانگی</string>
+    <string name="pref_content_homepage">تنظیم صفحهٔ اولیه</string>
+    <!-- Settings button label -->
+    <string name="pref_use_current">استفاده از صفحهٔ کنونی</string>
     <!-- Settings label -->
-    <string name="pref_content_autofit">اندازهٔ خودکار صفحات</string>
+    <string name="pref_content_autofit">قالب‌بندی خودکار</string>
     <!-- Settings summary -->
-    <string name="pref_content_autofit_summary">قالب‌بندی خودکار صفحات وب برای اندازهٔ صفحه</string>
+    <string name="pref_content_autofit_summary">قالب‌بندی صفحات برای نمایش در اندازهٔ مناسب</string>
     <!-- Settings label for enabling a mode where the browser is always set to landscape mode -->
-    <string name="pref_content_landscape_only">نمایش فقط افقی</string>
+    <string name="pref_content_landscape_only">نمایشِ فقط افقی</string>
     <!-- Settings summary -->
-    <string name="pref_content_landscape_only_summary">نمایش صفحات فقط در جهت افقی و عریض</string>
+    <string name="pref_content_landscape_only_summary">صفحات فقط به صورت افقی و عریض نمایش داده شود.</string>
     <!-- Settings screen, section title -->
-    <string name="pref_privacy_title">تنظیمات خصوصی</string>
+    <string name="pref_privacy_title">تنظیمات حریم خصوصی</string>
     <!-- Settings label -->
     <string name="pref_privacy_clear_cache">پاک‌کردن حافظهٔ نهان</string>
     <!-- Settings summary -->
     <string name="pref_privacy_clear_cache_summary">پاک‌کردن محتوا و پایگاه‌داده‌های ذخیره‌شده در حافظهٔ نهان</string>
     <!-- Confirmation dialog message -->
-    <string name="pref_privacy_clear_cache_dlg">محتوا و پایگاه‌داده‌های ذخیره‌شده در حافظهٔ نهان پاک خواهند شد.</string>
+    <string name="pref_privacy_clear_cache_dlg">محتوا و پایگاه‌داده‌های ذخیره‌شده در حافظهٔ نهان پاک شود؟</string>
     <!-- Settings label -->
     <string name="pref_privacy_clear_cookies">پاک‌کردن همهٔ داده‌های کوکی</string>
     <!-- Settings summary -->
     <string name="pref_privacy_clear_cookies_summary">پاک‌کردن همهٔ کوکی‌های مرورگر</string>
     <!-- Confirmation dialog message -->
-    <string name="pref_privacy_clear_cookies_dlg">همهٔ کوکی‌ها حذف خواهند شد.</string>
+    <string name="pref_privacy_clear_cookies_dlg">همهٔ کوکی‌ها حذف شود؟</string>
     <!-- Settings label -->
     <string name="pref_privacy_clear_history">پاک‌کردن تاریخچه</string>
     <!-- Settings summary -->
-    <string name="pref_privacy_clear_history_summary">پاک‌کردن تاریخچهٔ ناوش مرورگر</string>
+    <string name="pref_privacy_clear_history_summary">پاک‌کردن تاریخچهٔ وبگردی</string>
     <!-- Confirmation dialog message -->
-    <string name="pref_privacy_clear_history_dlg">تاریخچهٔ ناوش مرورگر حذف خواهد شد.</string>
+    <string name="pref_privacy_clear_history_dlg">تاریخچهٔ مرورگر پاک شود؟</string>
     <!-- Settings label -->
-    <string name="pref_privacy_clear_form_data">پاک‌کردن داده‌های فرم‌ها</string>
+    <string name="pref_privacy_clear_form_data">پاک‌کردن داده‌های فرم</string>
     <!-- Settings summary -->
-    <string name="pref_privacy_clear_form_data_summary">پاک‌کردن داده‌های ذخیره‌شدهٔ فرم‌ها</string>
+    <string name="pref_privacy_clear_form_data_summary">پاک‌کردن داده‌های ذخیره‌شدهٔ فرم</string>
     <!-- Confirmation dialog message -->
-    <string name="pref_privacy_clear_form_data_dlg">همهٔ داده‌های ذخیره‌شدهٔ فرم‌ها حذف خواهند شد.</string>
+    <string name="pref_privacy_clear_form_data_dlg">تمام داده‌های ذخیره‌شدهٔ فرم‌ها حذف شود؟</string>
     <!-- Settings label -->
-    <string name="pref_privacy_clear_passwords">پاک‌کردن گذرواژه‌ها</string>
+    <string name="pref_privacy_clear_passwords">پاک‌ کردن گذرواژه‌ها</string>
     <!-- Settings summary -->
-    <string name="pref_privacy_clear_passwords_summary">پاک‌کردن همهٔ گذرواژه‌های ذخیره‌شده</string>
+    <string name="pref_privacy_clear_passwords_summary">پاک ‌کردن همهٔ گذرواژه‌های ذخیره‌شده</string>
     <!-- Confirmation dialog message -->
-    <string name="pref_privacy_clear_passwords_dlg">همهٔ گذرواژه‌های ذخیره‌شده حذف خواهند شد.</string>
+    <string name="pref_privacy_clear_passwords_dlg">همهٔ گذرواژه‌های ذخیره‌شده حذف شود؟</string>
     <!-- Settings label -->
-    <string name="pref_privacy_enable_geolocation">فعال‌سازی موقعیت</string>
+    <string name="pref_privacy_enable_geolocation"> فعال‌سازی دسترسی به موقعیت جغرافیایی</string>
     <!-- Settings summary -->
-    <string name="pref_privacy_enable_geolocation_summary">به وب‌گاه‌ها اجازه می‌دهد که به موقعیت شما دسترسی داشته باشند</string>
+    <string name="pref_privacy_enable_geolocation_summary">به وب‌گاه‌ها اجازه می‌دهد که به موقعیت جغرافیایی شما دسترسی داشته باشند.</string>
     <!-- Settings label -->
-    <string name="pref_privacy_clear_geolocation_access">پاک‌کردن دسترسی موقعیت</string>
+    <string name="pref_privacy_clear_geolocation_access">پاک‌کردن دسترسی به موقعیت جغرافیایی</string>
     <!-- Settings summary -->
-    <string name="pref_privacy_clear_geolocation_access_summary">پاک‌کردن دسترسی موقعیت برای همهٔ وب‌گاه‌ها</string>
+    <string name="pref_privacy_clear_geolocation_access_summary">پاک‌کردن دسترسی به موقعیت جغرافیایی برای همهٔ وب‌گاه‌ها</string>
     <!-- Confirmation dialog message -->
-    <string name="pref_privacy_clear_geolocation_access_dlg">دسترسی موقعیت برای همهٔ وب‌گاه‌ها را پاک کن</string>
+    <string name="pref_privacy_clear_geolocation_access_dlg">دسترسی به موقعیت جغرافیایی برای همهٔ وب‌گاه‌هاپاک شود؟</string>
     <!-- Settings screen, section title -->
     <string name="pref_security_title">تنظیمات امنیتی</string>
     <!-- Settings label -->
-    <string name="pref_security_remember_passwords">به‌یاد سپاری گذرواژه‌ها</string>
+    <string name="pref_security_remember_passwords">ذخیرهٔ گذرواژه‌ها</string>
     <!-- Settings summary -->
-    <string name="pref_security_remember_passwords_summary">به‌یاد سپاری نام‌های کاربری و گذرواژه‌های همهٔ وب‌گاه‌ها</string>
+    <string name="pref_security_remember_passwords_summary">ذخیره کردن نام‌های کاربری و گذرواژه‌های همهٔ وب‌گاه‌ها</string>
     <!-- Settings label -->
-    <string name="pref_security_save_form_data">به‌یاد سپاری فرم‌ها</string>
+    <string name="pref_security_save_form_data">ذخیره اطلاعات فرم‌ها</string>
     <!-- Settings summary -->
-    <string name="pref_security_save_form_data_summary">به‌یاد سپاری داده‌های تایپ‌شدهٔ شما در فرم‌های وب‌گاه‌ها</string>
+    <string name="pref_security_save_form_data_summary">اطلاعاتی که در فرم‌ها وارد می‌کنم ذخیره شود.</string>
     <!-- Settings label -->
     <string name="pref_security_show_security_warning">نمایش هشدارهای امنیتی</string>
     <!-- Settings summmary -->
     <string name="pref_security_show_security_warning_summary">نمایش هشدارهای امنیتی در صورت وجود مشکل امنیتی در وب‌گاه</string>
     <!-- Settings label -->
-    <string name="pref_security_accept_cookies">قبول کوکی‌ها</string>
+    <string name="pref_security_accept_cookies">پذیرفتن کوکی‌ها</string>
     <!-- Settings summary -->
-    <string name="pref_security_accept_cookies_summary">به وب‌گاه‌ها اجازه می‌دهد اطلاعات کوکی‌ها را ذخیره و بخوانند</string>
+    <string name="pref_security_accept_cookies_summary">اجازه ذخیره‌سازی و خواندن اطلاعات کوکی‌ها به وب‌گاه‌ها داده شود.</string>
     <!-- Settings label -->
     <string name="pref_text_size">اندازهٔ متن</string>
     <!-- Settings text size options; appear in Text size dialog box -->
@@ -380,9 +409,9 @@
     <!-- Title of dialog for setting the default zoom -->
     <string name="pref_default_zoom_dialogtitle">زوم پیش‌فرض</string>
     <!-- Settings label -->
-    <string name="pref_content_load_page">باز کردن صفحات در قسمت کلی پنجره‌ها</string>
+    <string name="pref_content_load_page">نمای کلی</string>
     <!-- Settings summary -->
-    <string name="pref_content_load_page_summary">نمایش قسمت کلی پنجره‌های تازه باز شده</string>
+    <string name="pref_content_load_page_summary">صفحات جدید در نمای کلی باز شود.</string>
     <!-- Settings screen, section title -->
     <string name="pref_extras_title">تنظیمات پیشرفته</string>
     <!-- Settings label -->
@@ -390,46 +419,50 @@
     <!-- Settings summary -->
     <string name="pref_extras_website_settings_summary">مشاهدهٔ تنظیمات پیشرفته برای تک تک وب‌گاه‌ها</string>
     <!-- Settings label -->
-    <string name="pref_extras_reset_default">تنظیم مجدد به پیش‌فرض</string>
+    <string name="pref_extras_reset_default">بازگشت به حالت پیش‌فرض</string>
     <!-- Settings summary -->
-    <string name="pref_extras_reset_default_summary">همهٔ داده‌های مرورگر را پاک کن و همهٔ تنظیمات را به پیش‌فرض تنظیم کن</string>
+    <string name="pref_extras_reset_default_summary">بازگشت به تنظیمات پیش‌فرض</string>
     <!-- Confirmation dialog message -->
-    <string name="pref_extras_reset_default_dlg">همهٔ داده‌های مرورگر حذف خواهند شد و تنظیمات به مقدارهای پیش‌فرض باز خواهند گشت.</string>
+    <string name="pref_extras_reset_default_dlg">تمام تنظیمات به حالت پیش‌فرض بازگردد؟</string>
     <!-- Confirmation dialog title -->
-    <string name="pref_extras_reset_default_dlg_title">تنظیم مجدد به پیش‌فرض</string>
+    <string name="pref_extras_reset_default_dlg_title">بازگشت به حالت پیش‌فرض</string>
     <!-- Title for a group of settings -->
     <string name="pref_development_title">دیباگ</string>
     <!-- Do not tranlsate.  Development option -->
-    <string name="pref_default_text_encoding">کدگذاری متن</string>
+    <string name="pref_default_text_encoding">کدینگ متن</string>
     <!-- Options in the Default encoding dialog box -->
     <string-array name="pref_default_text_encoding_choices">
         <item>لاتین-۱ (ISO-8859-1)</item>
-        <item>یونیکد (UTF-8)</item>
+        <item>یونی‌کد (UTF-8)</item>
+	<item>چینی (GBK)</item>
+        <item>چینی (Big5)</item>
         <item>ژاپنی (ISO-2022-JP)</item>
         <item>ژاپنی (SHIFT_JIS)</item>
         <item>ژاپنی (EUC-JP)</item>
         <!-- TODO: We should add a lot more encodings.  -->
     </string-array>
     <!-- Dialog box title -->
-    <string name="pref_default_text_encoding_dialogtitle">کدگذاری متن</string>
+    <string name="pref_default_text_encoding_dialogtitle">کدینگ متن</string>
+        <!-- FIXME: By Myself!  -->
+    <!--string name="pref_default_text_encoding_default">UTF-8</string>
     <!-- Title for a dialog displayed when the browser has a data connectivity
             problem -->
-    <string name="browserFrameNetworkErrorLabel">مشکل با اتصال داده</string>
+    <string name="browserFrameNetworkErrorLabel">مشکل در اتصال داده</string>
     <!-- Title for a dialog displayed when the browser runs into a file label
             error -->
     <string name="browserFrameFileErrorLabel">مشکل با پرونده</string>
     <!-- Dialog box title -->
-    <string name="browserFrameFormResubmitLabel">تأیید</string>
+    <string name="browserFrameFormResubmitLabel">تأییدیه</string>
     <!-- Dialog box message -->
     <string name="browserFrameFormResubmitMessage">صفحه‌ای که می‌خواهید مشاهده کنید، شامل داده‌ای است که در حال حاضر ارسال شده است. اگر دوباره آنرا ارسال کنید، هر عملی که در فرم انجام شده است (مانند جستجو یا خرید آنلاین) دوباره تکرار خواهد شد.</string>
     <!-- Dialog box title -->
-    <string name="loadSuspendedTitle">هیچ اتصال شبکه‌ای وجود ندارد</string>
+    <string name="loadSuspendedTitle">اتصالی به شبکه وجود ندارد.</string>
     <!-- Dialog box message -->
-    <string name="loadSuspended">چون به اینترنت متصل نیستید، مرورگر این صفحه را نمی‌تواند بار کند.</string>
+    <string name="loadSuspended">چون به اینترنت متصل نیستید، مرورگر این صفحه را نمی‌تواند نمایش دهد.</string>
     <!-- Menu item -->
     <string name="clear_history">پاک‌کردن تاریخچه</string>
     <!-- History screen title; appears in title bar -->
-    <string name="browser_history">صفحات اخیرا مشاهده‌شده</string>
+    <string name="browser_history">صفحاتی که به‌تازگی مشاهده ‌شده</string>
     <!-- Appears on History screen if no history is found -->
     <string name="empty_history">تاریخچهٔ مرورگر خالی است.</string>
     <!-- Displayed at the top of the bookmarks page.  When clicked, it bookmarks the page the browser is currently showing -->
@@ -440,10 +473,10 @@
     
     <!-- This string is for the browser "Go To" UI. -->
     <!-- This is the hint text shown in the Go To widget, before text is entered. -->
-    <string name="search_hint">نشانی وارد کنید یا جستجو کنید</string>
+    <string name="search_hint">***** (نشانی وارد کنید یا جستجو کنید(نمایید</string>
     <!-- This string is for the browser "Go To" UI. -->
     <!-- This is the button label in the "Go To" UI. -->
-    <string name="search_button_text">برو</string>
+    <string name="search_button_text">رفتن</string>
     <!-- The string used to describe the browser as a searchable item within system search settings. -->
     <string name="search_settings_description">تاریخچهٔ وب و نشانک‌ها</string>
 
@@ -453,15 +486,15 @@
     <string name="attention">توجه</string>
     <!-- Message for a dialog informing the user that the site is attempting to
             display a popup window -->
-    <string name="popup_window_attempt">این وب‌گاه می‌خواهد یک پنجرهٔ واشو باز کند.</string>
+    <string name="popup_window_attempt">به این وب‌گاه اجازهٔ باز کردن پنجرهٔ واشو داده شود؟</string>
     <!-- Label for a button to allow a particular popup window to open -->
-    <string name="allow">اجازه بده</string>
+    <string name="allow">بله</string>
     <!-- Label for a button to disallow a particular popup from opening -->
-    <string name="block">بازدار</string>
+    <string name="block">خیر</string>
 
     <!-- Title for a dialog informing the user that they cannot open any more
             windows because the limit has been reached. -->
-    <string name="too_many_windows_dialog_title">تعداد پنجره‌ها به حد نصاب رسید</string>
+    <string name="too_many_windows_dialog_title">تعداد پنجره‌های باز شده بیش از سقف مجاز</string>
     <!-- Message in a dialog telling the user that they cannot open any more
             windows because the limit has been reached. -->
     <string name="too_many_windows_dialog_message">چون شما حداکثر تعداد پنجره‌های ممکن را باز کرده‌اید، نمی‌توان پنجرهٔ جدیدی باز کرد.</string>
@@ -470,56 +503,63 @@
     <string name="too_many_subwindows_dialog_title">پنجرهٔ واشو باز است</string>
     <!-- Message for a dialog informing the user that they cannot open a
             subwindow because only one can be open at a time. -->
-    <string name="too_many_subwindows_dialog_message">نمی‌توان یک پنجرهٔ واشوی جدید باز کرد چون در یک لحظه فقط امکان باز کردن یکی وجود دارد.</string>
+    <string name="too_many_subwindows_dialog_message">نمی‌توان یک پنجرهٔ واشوی جدید باز کرد. چون در یک لحظه فقط امکان باز کردن یکی وجود دارد.</string>
 
     <!-- Download History UI strings -->
-    <string name="download_title">تاریخچهٔ بارگیری</string>
+    <string name="download_title">تاریخچهٔ دریافت</string>
     <!-- Download history screen string-->
-    <string name="download_unknown_filename">&lt;نامشخص&gt;</string>
+    <string name="download_unknown_filename">‏‏&lt;ناشناس&gt;</string>
     <!-- Context menu item on Download history screen -->
-    <string name="download_menu_open">باز</string>
+    <string name="download_menu_open">باز کردن</string>
     <!-- Context menu item on Download history screen -->
-    <string name="download_menu_clear">از فهرست حذف کن</string>
+    <string name="download_menu_clear">از فهرست حذف شود.</string>
     <!-- Context menu item in Download history screen -->
-    <string name="download_menu_cancel">لغو بارگیری</string>
+    <string name="download_menu_delete">حذف کردن</string>
+    <!-- Context menu item in Download history screen -->
+    <string name="download_menu_cancel">لغو دریافت</string>
     <!-- Menu item -->
-    <string name="download_menu_cancel_all">همهٔ بارگیری‌ها را لغو کن</string>
+    <string name="download_menu_cancel_all">همهٔ دریافت‌ها لغو شود.</string>
     <!-- Confirmation dialog title -->
-    <string name="download_cancel_dlg_title">همهٔ بارگیری‌ها را لغو کن</string>
+    <string name="download_cancel_dlg_title">لغو همهٔ دریافت‌ها</string>
     <!-- Confirmation dialog message -->
-    <string name="download_cancel_dlg_msg">همهٔ <xliff:g id="download_count">%d</xliff:g> بارگیری لغو خواهند شد و از تاریخچهٔ بارگیری پاک خواهند شد.</string>
+    <string name="download_cancel_dlg_msg">همهٔ <xliff:g id="download_count">%d</xliff:g>دریافت‌ها لغو  و از تاریخچهٔ بارگیری پاک شود؟</string>
+    <!-- Confirmation dialog title -->
+    <string name="download_delete_file">پرونده پاک خواهد شد.</string>
     <!-- Dialog title -->
     <string name="download_file_error_dlg_title">کمبود فضا</string>
     <!-- Dialog message -->
-    <string name="download_file_error_dlg_msg"><xliff:g id="filename">%s</xliff:g> را نمی‌توان بارگیری کرد.\nمقداری فضا روی گوشی خالی کنید و دوباره امتحان کنید.</string>
+    <string name="download_file_error_dlg_msg"><xliff:g id="filename">‏%s</xliff:g> را نمی‌توان بارگیری کرد.\nمقداری فضا روی گوشی خالی کنید و دوباره امتحان کنید.</string>
     <!-- Title for a dialog informing the user that the download has failed -->
-    <string name="download_failed_generic_dlg_title">بارگیری ناموفق</string>
+    <string name="download_failed_generic_dlg_title">دریافت ناموفق</string>
     <!-- Dialog title -->
-    <string name="download_no_sdcard_dlg_title">کارت‌حافظه‌ای وجود ندارد</string>
+    <string name="download_no_sdcard_dlg_title">کارت‌حافظه‌ وجود ندارد.</string>
     <!-- Dialog message -->
-    <string name="download_no_sdcard_dlg_msg">برای بارگیری <xliff:g id="filename">%s</xliff:g> یک کارت‌حافظه نیاز است.</string>
+    <string name="download_no_sdcard_dlg_msg">برای دریافت<xliff:g id="filename">%s</xliff:g> به کارت‌حافظه نیاز است.</string>
     <!-- Title for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything -->
-    <string name="download_sdcard_busy_dlg_title">کارت حافظه در دسترس نیست</string>
+    <string name="download_sdcard_busy_dlg_title">کارت‌حافظه در دسترس نیست</string>
     <!-- Message for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything.  Informs
             the user how to enable SD card storage -->
-    <string name="download_sdcard_busy_dlg_msg">کارت حافظه مشغول است. برای شروع بارگیری، در اطلاع‌ها \"حافظهٔ USB را خاموش کن\" را انتخاب کنید.</string>
+    <string name="download_sdcard_busy_dlg_msg">کارت‌حافظه مشغول است. برای شروع دریافت، در اطلاع‌ها گزینهٔ \"حافظهٔ USB را خاموش شود\" را انتخاب کنید.</string>
  
+    <!-- Message for a dialog informing the user that there is no application on
+            the phone that can open the file that was downloaded  -->
+    <string name="download_no_application">پرونده را نمی‌توان باز کرد.</string>
     <!-- Label for a button to re-attempt downloading a file -->
-    <string name="retry">سعی مجدد</string>
+    <string name="retry">تلاش مجدد</string>
     <!-- Appears in Download history screen if there is no history -->
-    <string name="no_downloads">تاریخچهٔ بارگیری خالی است.</string>
+    <string name="no_downloads">تاریخچهٔ دریافت خالی است.</string>
     <!-- the following download_xxxx matches the download manager state, ie Downloads.Status -->
-    <string name="download_error">بارگیری ناموفق.</string>
+    <string name="download_error">دریافت ناموفق</string>
     <!-- Appears in Download history screen after an item has downloaded, included item size -->
-    <string name="download_success">بارگیری <xliff:g id="file">%s</xliff:g> موفق بود.</string>
+    <string name="download_success">دریافت <xliff:g id="file">%s</xliff:g> موفق بود.</string>
     <!-- Appears in Download history screen while an item is being downloaded -->
-    <string name="download_running">در حال بارگیری\u2026</string>
+    <string name="download_running">در حال دریافت \u2026</string>
     <!-- Message in the list of items which have received download requests
             telling their status.  This message states that the download has not
             yet begun -->
-    <string name="download_pending">در حال آغاز بارگیری\u2026</string>
+    <string name="download_pending">آماده‌سازی برای دریافت \u2026</string>
     <!-- Message in the list of items which have received download requests
             telling their status.  This message states that the download is
             waiting for a network connection to continue -->
@@ -531,67 +571,78 @@
     <!-- Message in the list of items which have received download requests
             telling their status.  This message states that the download has
             been canceled -->
-    <string name="download_canceled">بارگیری لغو شد.</string>
+    <string name="download_canceled">دریافت لغو شد.</string>
     <!-- Message in the list of items which have received download requests
             telling their status.  This message states that the download will
             not happen because the content is not supported by the phone -->
-    <string name="download_not_acceptable">نمی‌توان بارگیری کرد. این محتوا توسط گوشی پشتیبانی نمی‌شود.</string>
+    <string name="download_not_acceptable">نمی‌توان پرونده را دریافت کرد. این محتوا توسط گوشی شما پشتیبانی نمی‌شود.</string>
     <!-- Message in the list of items which have received download requests
             telling their status.  This message states that the download did not
             finish because there is not enough storage for the file -->
-    <string name="download_file_error">نمی‌توان بارگیری را به پایان رساند. به اندازهٔ کافی حافظهٔ خالی موجود نیست.</string>
+    <string name="download_file_error">نمی‌توان دریافت را به پایان رساند. به اندازهٔ کافی حافظهٔ خالی موجود نیست.</string>
     <!-- Message in the list of items which have received download requests
             telling their status.  This message states that the item cannot be
             downloaded because it cannot determine the length of the item -->
-    <string name="download_length_required">نمی‌توان بارگیری کرد. اندازهٔ مورد را نمی‌توان تخمین زد.</string>
+    <string name="download_length_required">نمی‌توان پرونده را دریافت کرد. تشخیص اندازه پرونده دریافتی امکان ندارد.</string>
     <!-- Message in the list of items which have received download requests
             telling their status.  This message states that the download was
             interrupted and cannot be resumed -->
-    <string name="download_precondition_failed">بارگیری قطع شد. نمی‌توان آنرا ادامه داد.</string>
+    <string name="download_precondition_failed">دریافت قطع شد. نمی‌توان آنرا ادامه داد.</string>
+    <!-- Bookmark name for Picasa website -->
+    <string name="picasa" translatable="false">پیکاسا</string>
 
+    <string name="activity_instrumentation_test_runner">تست اجرای مرورگر</string>
+    
     <!-- The description of the suggestion that lets the user search the web for the query currently
          in the text field. -->
     <string name="search_the_web">جستجوی وب</string>
 
     <!-- HTML5 dialogs -->
     <!-- Used as a status bar notification when the browser is running out of space trying to allocate or increase the database quota for an HTML5 databae or application cache. -->
-    <string name="webstorage_outofspace_notification_title">حافظهٔ مرورگر پر است</string>
+    <string name="webstorage_outofspace_notification_title">پر شدن حافظهٔ مرورگر</string>
     <string name="webstorage_outofspace_notification_text">برای خالی‌کردن فضا کلیک کنید.</string>
     <!-- Used in the Browser Settings -->
     <string name="webstorage_clear_data_title">پاک‌کردن داده‌های ذخیره‌شده</string>
     <!-- Confirmation dialog when the user ask to clear all data for an origin -->
     <string name="webstorage_clear_data_dialog_title">پاک‌کردن داده‌های ذخیره‌شده</string>
-    <string name="webstorage_clear_data_dialog_message">همهٔ داده‌های ذخیره‌شده توسط این وب‌گاه حذف خواهد شد</string>
-    <string name="webstorage_clear_data_dialog_ok_button">همه را پاک کن</string>
-    <string name="webstorage_clear_data_dialog_cancel_button">لغو</string>
+    <string name="webstorage_clear_data_dialog_message">همهٔ داده‌های ذخیره‌شده توسط این وب‌گاه حذف شود؟</string>
+    <string name="webstorage_clear_data_dialog_ok_button">بله</string>
+    <string name="webstorage_clear_data_dialog_cancel_button">خیر</string>
     <!-- Strings used in the summary of origins -->
     <string name="webstorage_origin_summary_mb_stored">مگابایت روی گوشی شما ذخیره شده است</string>
         <!-- String shown in a progress view while a video is loading, before it starts playing -->
-    <string name="loading_video">در حال بار کردن ویدئو</string>
+    <string name="loading_video">در حال دریافت ویدئو</string>
 
     <!-- Geolocation -->
     <!-- Permissions prompt -->
-    <string name="geolocation_permissions_prompt_message"><xliff:g id="website origin" example="maps.google.com">%s</xliff:g> می‌خواهد موقعیت شما را بداند</string>
-    <string name="geolocation_permissions_prompt_share">اشتراک‌گذاری موقعیت</string>
-    <string name="geolocation_permissions_prompt_dont_share">رد</string>
-    <string name="geolocation_permissions_prompt_remember">ترجیح را بخاطر بسپار</string>
+    <string name="geolocation_permissions_prompt_message">‏<xliff:g id="website origin" example="maps.google.com">‏%s</xliff:g> به موقعیت جغرافیایی شما دست یابد؟</string>
+    <string name="geolocation_permissions_prompt_share">بله</string>
+    <string name="geolocation_permissions_prompt_dont_share">خیر</string>
+    <string name="geolocation_permissions_prompt_remember">انتخاب را بخاطر بسپار</string>
+    <!-- Permissions prompt toast -->
+    <string name="geolocation_permissions_prompt_toast_allowed">این وب‌گاه می‌تواند به موقعیت جغرافیایی شما دسترسی داشته باشد. برای تغییر آن به قسمت تنظیمات-تنظیمات وبگاه بروید.</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">این وب‌گاه نمی‌تواند به موقعیت جغرافیایی شما دسترسی داشته باشد. برای تغییر آن به قسمت تنظیمات-تنظیمات وبگاه بروید.</string>
+    
     <!-- Settings page, Advanced Settings -> Website settings -> <origin> -->
-    <string name="geolocation_settings_page_title">پاک‌کردن دسترسی موقعیت</string>
-    <string name="geolocation_settings_page_summary_allowed">در حال حاضر این وب‌گاه به موقعیت شما دسترسی دارد</string>
-    <string name="geolocation_settings_page_summary_not_allowed">در حال حافظر این وب‌گاه به موقعیت شما دسترسی ندارد</string>
+    <string name="geolocation_settings_page_title">پاک‌کردن دسترسی به موقعیت جغرافیایی</string>
+    <string name="geolocation_settings_page_summary_allowed">در حال حاضر این وب‌گاه به موقعیت جغرافیایی شما دسترسی دارد</string>
+    <string name="geolocation_settings_page_summary_not_allowed">در حال حاظر این وب‌گاه به موقعیت جغرافیایی شما دسترسی ندارد</string>
     <!-- Settings page dialog -->
-    <string name="geolocation_settings_page_dialog_title">پاک‌کردن دسترسی موقعیت</string>
-    <string name="geolocation_settings_page_dialog_message">دسترسی موقعیت برای این وب‌گاه پاک خواهد شد</string>
-    <string name="geolocation_settings_page_dialog_ok_button">پاک‌کردن دسترسی</string>
-    <string name="geolocation_settings_page_dialog_cancel_button">لغو</string>
+    <string name="geolocation_settings_page_dialog_title">پاک‌کردن دسترسی به موقعیت جغرافیایی</string>
+    <string name="geolocation_settings_page_dialog_message">دسترسی به موقعیت جغرافیایی برای این وب‌گاه پاک شود؟</string>
+    <string name="geolocation_settings_page_dialog_ok_button">بله</string>
+    <string name="geolocation_settings_page_dialog_cancel_button">خیر</string>
     <!-- Label for the menu item in the website settings activity used to clear data stored by all websites -->
     <string name="website_settings_clear_all">پاک‌کردن همه</string>
     <string name="website_settings_clear_all_dialog_title">همهٔ تنظیمات وب‌گاه پاک شود؟</string>
-    <string name="website_settings_clear_all_dialog_message">همهٔ داده‌ها و دسترسی موقعیت این وب‌گاه پاک خواهند شد.</string>
-    <string name="website_settings_clear_all_dialog_ok_button">حذف همهٔ داده‌ها</string>
-    <string name="website_settings_clear_all_dialog_cancel_button">لغو</string>
+    <string name="website_settings_clear_all_dialog_message">همهٔ داده‌ها و دسترسی به موقعیت این وب‌گاه پاک شود؟</string>
+    <string name="website_settings_clear_all_dialog_ok_button">بله</string>
+    <string name="website_settings_clear_all_dialog_cancel_button">خیر</string>
 
-    <!-- Text in the progress dialog when we are setting an image as the home screen wallpaper. -->
-    <string name="progress_dialog_setting_wallpaper">در حال تنظیم کاغذ کاغذدیواری...</string>
+
+    <!-- Zoom-related strings --><skip />
+   <!-- Text in the progress dialog when we are setting an image as the home screen wallpaper. -->
+    <string name="progress_dialog_setting_wallpaper">در حال تنظیم کاغذ دیواری</string>
+
 
 </resources>
