@@ -437,6 +437,11 @@
     </string-array>
     <!-- Dialog box title -->
     <string name="pref_default_text_encoding_dialogtitle">کدینگ متن</string>
+<<<<<<< HEAD
+=======
+        <!-- FIXME: By Myself!  -->
+    <!--string name="pref_default_text_encoding_default">UTF-8</string> -->
+>>>>>>> 2c368db488ca096d34150dac0964ffe3425dafd0
     <!-- Title for a dialog displayed when the browser has a data connectivity
             problem -->
     <string name="browserFrameNetworkErrorLabel">مشکل در اتصال داده</string>
