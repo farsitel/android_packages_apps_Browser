@@ -444,7 +444,7 @@
     <!-- Dialog box title -->
     <string name="pref_default_text_encoding_dialogtitle">کدینگ متن</string>
         <!-- FIXME: By Myself!  -->
-    <!--string name="pref_default_text_encoding_default">UTF-8</string>
+    <!--string name="pref_default_text_encoding_default">UTF-8</string> -->
     <!-- Title for a dialog displayed when the browser has a data connectivity
             problem -->
     <string name="browserFrameNetworkErrorLabel">مشکل در اتصال داده</string>
