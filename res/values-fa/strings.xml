@@ -194,9 +194,6 @@
     <string name="delete_bookmark_warning">نشانک \"<xliff:g id="bookmark">%s</xliff:g>\" حذف شود؟</string>
     <!-- Context Menu item to open the selected link in a new window -->
     <string name="open_in_new_window">در یک پنجرهٔ جدید باز شود.</string>
-    <!-- Appears in Current windows screen as label on blank + window; user 
-            selects this window to open a new browser window -->
-    <string name="new_window">پنجرهٔ جدید</string>
     <!-- Menu item to open a dialog which allows the user to enter a url or do search-->
     <string name="goto_dot">رفتن به</string>
     <!-- Menu item that opens up a dialog which allows the user to provide a
@@ -204,9 +201,6 @@
     <string name="find_dot">در صفحه جستجو شود.</string>
     <!-- Menu item to switch to text selection mode for copy and paste. -->
     <string name="select_dot">انتخاب متن</string>
-    <!-- Menu item which opens a screen which shows all the currently open
-            windows, and also allows them to create a new one. -->
-    <string name="view_tabs">مشاهدهٔ کلی پنجره‌ها</string>
     <!-- Menu item which opens a screen which shows all the currently open
             windows, and also allows them to create a new one. This is a shorter
             alternate version of "view_tabs"-->
@@ -443,8 +437,6 @@
     </string-array>
     <!-- Dialog box title -->
     <string name="pref_default_text_encoding_dialogtitle">کدینگ متن</string>
-        <!-- FIXME: By Myself!  -->
-    <!--string name="pref_default_text_encoding_default">UTF-8</string>
     <!-- Title for a dialog displayed when the browser has a data connectivity
             problem -->
     <string name="browserFrameNetworkErrorLabel">مشکل در اتصال داده</string>
@@ -543,9 +535,6 @@
             the user how to enable SD card storage -->
     <string name="download_sdcard_busy_dlg_msg">کارت‌حافظه مشغول است. برای شروع دریافت، در اطلاع‌ها گزینهٔ \"حافظهٔ USB را خاموش شود\" را انتخاب کنید.</string>
  
-    <!-- Message for a dialog informing the user that there is no application on
-            the phone that can open the file that was downloaded  -->
-    <string name="download_no_application">پرونده را نمی‌توان باز کرد.</string>
     <!-- Label for a button to re-attempt downloading a file -->
     <string name="retry">تلاش مجدد</string>
     <!-- Appears in Download history screen if there is no history -->
@@ -588,11 +577,7 @@
             telling their status.  This message states that the download was
             interrupted and cannot be resumed -->
     <string name="download_precondition_failed">دریافت قطع شد. نمی‌توان آنرا ادامه داد.</string>
-    <!-- Bookmark name for Picasa website -->
-    <string name="picasa" translatable="false">پیکاسا</string>
 
-    <string name="activity_instrumentation_test_runner">تست اجرای مرورگر</string>
-    
     <!-- The description of the suggestion that lets the user search the web for the query currently
          in the text field. -->
     <string name="search_the_web">جستجوی وب</string>
