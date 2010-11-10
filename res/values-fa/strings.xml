@@ -17,7 +17,7 @@
     <!-- The name of the application. -->
     <string name="application_name">مرورگر</string>
 <!-- Displayed with a file picker to choose a file to upload -->
-    <string name="choose_upload">پرونده‌ای را که می‌خواهید بارگذاری کنید، انتخاب کنید.</string>
+    <string name="choose_upload">پرونده‌ای را که می‌خواهید به سرور ارسال کنید، انتخاب کنید.</string>
     <!-- Name of menu item of a new tab.  Also used in the title bar when displaying a new tab -->
     <string name="new_tab">پنجرهٔ جدید</string>
     <!-- Name of menu item which brings up a list of the currently active tabs -->
@@ -46,21 +46,21 @@
     <string name="bookmarks_search">مرورگر</string>
 
     <!-- Label for a cancel button.  It is used for multiple cancel buttons in different contexts -->
-    <string name="cancel">لغو</string>
+    <string name="cancel">بی‌خیال</string>
     <!-- Label for a confirm button.  Used in multiple contexts. -->
-    <string name="ok">قبول</string>
+    <string name="ok">خُب</string>
 
     <!-- Displayed on the Find dialog to display the number of matches
          found in the current page. -->
     <plurals name="matches_found">
         <!-- Case of no matches -->
-        <item quantity="zero">هیچ مورد مشابهی پیدا نشد.</item>
+        <item quantity="zero">هیچ موردی پیدا نشد.</item>
         <!-- Case of one match -->
-        <item quantity="one">‏۱ مورد مشابه</item>
+        <item quantity="one">‏۱ مورد</item>
         <!-- Case of "few" (two) matches -->
-        <item quantity="few"><xliff:g id="number" example="2">‏%Ld</xliff:g>مورد مشابه</item>
+        <item quantity="few"><xliff:g id="number" example="2">‏%Ld</xliff:g> مورد</item>
         <!-- Case of several matches -->
-        <item quantity="other"><xliff:g id="number" example="137">‏%Ld</xliff:g> مورد مشابه</item>
+        <item quantity="other"><xliff:g id="number" example="137">‏%Ld</xliff:g> مورد</item>
     </plurals>
 
     <!-- Displayed on the title bar while the page is loading -->
@@ -129,9 +129,9 @@
     <!-- Menu item to go to the next page (only useful if the user has previously hit back.) -->
     <string name="forward">بعدی</string>
     <!-- Button label to confirm saving a bookmark. -->
-    <string name="save">ذخیره شود</string>
+    <string name="save">ذخیره</string>
     <!-- Button label to cancel saving a bookmark. -->
-    <string name="do_not_save">ذخیره نشود</string>
+    <string name="do_not_save">بی‌خیال</string>
     <!-- Field label in Bookmark dialog box: refers to URL of the page to bookmark -->
     <string name="location">نشانی وب‌گاه</string>
     <!-- Field label in Bookmark dialog box: title that the user wishes to use for the bookmark -->
@@ -228,7 +228,7 @@
     <string name="share_page">اشتراک‌گذاری صفحه</string>
     <!-- Context Menu item open the currently selected link in the current
             window.-->
-    <string name="contextmenu_openlink">بازکردن</string>
+    <string name="contextmenu_openlink">باز شود.</string>
     <!-- Context Menu item to open the currently selected link in a new
             window. -->
     <string name="contextmenu_openlink_newwindow">در یک پنجرهٔ جدید باز شود.</string>
@@ -401,7 +401,7 @@
     <!-- Settings default zoom options; appear in default zoom dialog box -->
     <string-array name="pref_default_zoom_choices">
         <item>دور</item>
-        <item>میانه</item>
+        <item>معمولی</item>
         <item>نزدیک</item>
     </string-array>
     <!-- Title of dialog for setting the default zoom -->
@@ -450,15 +450,15 @@
     <!-- Dialog box title -->
     <string name="browserFrameFormResubmitLabel">تأییدیه</string>
     <!-- Dialog box message -->
-    <string name="browserFrameFormResubmitMessage">صفحه‌ای که می‌خواهید مشاهده کنید، شامل داده‌هایی است که در حال حاضر ارسال شده است. اگر دوباره آنرا ارسال کنید، هر عملی که در فرم انجام شده است (مانند جستجو یا خرید آنلاین) دوباره تکرار خواهد شد.</string>
+    <string name="browserFrameFormResubmitMessage">صفحه‌ای که می‌خواهید مشاهده کنید، شامل اطلاعاتی است که در حال حاضر ارسال شده است. اگر دوباره آنرا ارسال کنید، هر عملی که در فرم انجام شده است (مانند جستجو یا خرید آنلاین) دوباره تکرار خواهد شد.</string>
     <!-- Dialog box title -->
-    <string name="loadSuspendedTitle">اتصالی به شبکه وجود ندارد.</string>
+    <string name="loadSuspendedTitle">اتصال به شبکه وجود ندارد.</string>
     <!-- Dialog box message -->
     <string name="loadSuspended">چون به اینترنت متصل نیستید، مرورگر این صفحه را نمی‌تواند نمایش دهد.</string>
     <!-- Menu item -->
     <string name="clear_history">پاک کردن تاریخچه</string>
     <!-- History screen title; appears in title bar -->
-    <string name="browser_history">صفحاتی که به تازگی مشاهده ‌شده</string>
+    <string name="browser_history">صفحاتی که به تازگی مشاهده ‌شده است.</string>
     <!-- Appears on History screen if no history is found -->
     <string name="empty_history">تاریخچهٔ مرورگر خالی است.</string>
     <!-- Displayed at the top of the bookmarks page.  When clicked, it bookmarks the page the browser is currently showing -->
@@ -496,7 +496,7 @@
     <string name="too_many_windows_dialog_message">چون شما حداکثر تعداد پنجره‌های ممکن را باز کرده‌اید، نمی‌توان پنجرهٔ جدیدی باز کرد.</string>
     <!-- Title for a dialog informing the user that they cannot open a subwindow
             because only one can be open at a time. -->
-    <string name="too_many_subwindows_dialog_title">پنجرهٔ واشو باز است</string>
+    <string name="too_many_subwindows_dialog_title">پنجرهٔ واشو باز است.</string>
     <!-- Message for a dialog informing the user that they cannot open a
             subwindow because only one can be open at a time. -->
     <string name="too_many_subwindows_dialog_message">نمی‌توان یک پنجرهٔ واشوی جدید باز کرد. چون در یک لحظه فقط امکان باز کردن یک پنجره وجود دارد.</string>
@@ -506,11 +506,11 @@
     <!-- Download history screen string-->
     <string name="download_unknown_filename">‏‏&lt;ناشناس&gt;</string>
     <!-- Context menu item on Download history screen -->
-    <string name="download_menu_open">باز کردن</string>
+    <string name="download_menu_open">باز شود.</string>
     <!-- Context menu item on Download history screen -->
     <string name="download_menu_clear">از فهرست حذف شود.</string>
     <!-- Context menu item in Download history screen -->
-    <string name="download_menu_delete">حذف کردن</string>
+    <string name="download_menu_delete">حذف شود.</string>
     <!-- Context menu item in Download history screen -->
     <string name="download_menu_cancel">لغو دریافت</string>
     <!-- Menu item -->
@@ -533,7 +533,7 @@
     <string name="download_no_sdcard_dlg_msg">برای دریافت <xliff:g id="filename">%s</xliff:g> به کارت حافظه نیاز است.</string>
     <!-- Title for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything -->
-    <string name="download_sdcard_busy_dlg_title">کارت حافظه در دسترس نیست</string>
+    <string name="download_sdcard_busy_dlg_title">کارت حافظه در دسترس نیست.</string>
     <!-- Message for a dialog informing the user that the SD card used for
             external storage is busy so they cannot download anything.  Informs
             the user how to enable SD card storage -->
@@ -594,7 +594,7 @@
     <!-- HTML5 dialogs -->
     <!-- Used as a status bar notification when the browser is running out of space trying to allocate or increase the database quota for an HTML5 databae or application cache. -->
     <string name="webstorage_outofspace_notification_title">پر شدن حافظهٔ مرورگر</string>
-    <string name="webstorage_outofspace_notification_text">برای خالی‌کردن فضا کلیک کنید.</string>
+    <string name="webstorage_outofspace_notification_text">برای خالی‌کردن فضا انتخاب کنید.</string>
     <!-- Used in the Browser Settings -->
     <string name="webstorage_clear_data_title">پاک کردن داده‌های ذخیره‌شده</string>
     <!-- Confirmation dialog when the user ask to clear all data for an origin -->
@@ -614,13 +614,13 @@
     <string name="geolocation_permissions_prompt_dont_share">خیر</string>
     <string name="geolocation_permissions_prompt_remember">بخاطر سپردن انتخاب</string>
     <!-- Permissions prompt toast -->
-    <string name="geolocation_permissions_prompt_toast_allowed">این وب‌گاه می‌تواند به موقعیت جغرافیایی شما دسترسی داشته باشد. برای تغییر آن به قسمت تنظیمات-تنظیمات وب‌گاه بروید.</string>
-    <string name="geolocation_permissions_prompt_toast_disallowed">این وب‌گاه نمی‌تواند به موقعیت جغرافیایی شما دسترسی داشته باشد. برای تغییر آن به قسمت تنظیمات-تنظیمات وب‌گاه بروید.</string>
+    <string name="geolocation_permissions_prompt_toast_allowed">این وب‌گاه می‌تواند به موقعیت جغرافیایی شما دسترسی داشته باشد. برای تغییر آن به برنامهٔ «تنظیمات»، قسمت «تنظیمات وب‌گاه» بروید.</string>
+    <string name="geolocation_permissions_prompt_toast_disallowed">این وب‌گاه نمی‌تواند به موقعیت جغرافیایی شما دسترسی داشته باشد. برای تغییر آن به برنامهٔ «تنظیمات»، قسمت «تنظیمات وب‌گاه» بروید.</string>
     
     <!-- Settings page, Advanced Settings -> Website settings -> <origin> -->
     <string name="geolocation_settings_page_title">پاک کردن دسترسی به موقعیت جغرافیایی</string>
-    <string name="geolocation_settings_page_summary_allowed">در حال حاضر این وب‌گاه به موقعیت جغرافیایی شما دسترسی دارد</string>
-    <string name="geolocation_settings_page_summary_not_allowed">در حال حاضر این وب‌گاه به موقعیت جغرافیایی شما دسترسی ندارد</string>
+    <string name="geolocation_settings_page_summary_allowed">در حال حاضر این وب‌گاه به موقعیت جغرافیایی شما دسترسی دارد.</string>
+    <string name="geolocation_settings_page_summary_not_allowed">در حال حاضر این وب‌گاه به موقعیت جغرافیایی شما دسترسی ندارد.</string>
     <!-- Settings page dialog -->
     <string name="geolocation_settings_page_dialog_title">پاک کردن دسترسی به موقعیت جغرافیایی</string>
     <string name="geolocation_settings_page_dialog_message">دسترسی به موقعیت جغرافیایی برای این وب‌گاه پاک شود؟</string>
