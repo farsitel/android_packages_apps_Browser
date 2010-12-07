@@ -567,6 +567,10 @@
     <!-- Message in the list of items which have received download requests
             telling their status.  This message states that the download has
             been canceled -->
+
+    <!-- Format of download status after one of download_running strings -->
+    <string name="download_running_format">\u0020%Ld٪ (%s از %s)</string>
+
     <string name="download_canceled">دریافت لغو شد.</string>
     <!-- Message in the list of items which have received download requests
             telling their status.  This message states that the download will

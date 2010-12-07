@@ -613,6 +613,10 @@
             telling their status.  This message states that the download has
             paused to wait for a network connection -->
     <string name="download_running_paused">Waiting for data connection\u2026</string>
+
+    <!-- Format of download status after one of download_running strings -->
+    <string name="download_running_format">\u0020%d%% (%s/%s)</string>
+
     <!-- Message in the list of items which have received download requests
             telling their status.  This message states that the download has
             been canceled -->
