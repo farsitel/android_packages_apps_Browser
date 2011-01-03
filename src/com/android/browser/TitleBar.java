@@ -172,13 +172,24 @@ public class TitleBar extends LinearLayout {
                 // Make all touches hit either the textfield or the button,
                 // depending on which side of the right edge of the textfield
                 // they hit.
-                if ((int) event.getX() > mTitleBg.getRight()) {
-                    button.setPressed(true);
+                if (mRTL) {
+                    if ((int) event.getX() < mTitleBg.getLeft()) {
+                        button.setPressed(true);
+                    } else {
+                        mTitleBg.setPressed(true);
+                        mHandler.sendMessageDelayed(mHandler.obtainMessage(
+                                LONG_PRESS),
+                                ViewConfiguration.getLongPressTimeout());
+                    }
                 } else {
-                    mTitleBg.setPressed(true);
-                    mHandler.sendMessageDelayed(mHandler.obtainMessage(
-                            LONG_PRESS),
-                            ViewConfiguration.getLongPressTimeout());
+                    if ((int) event.getX() > mTitleBg.getRight()) {
+                        button.setPressed(true);
+                    } else {
+                        mTitleBg.setPressed(true);
+                        mHandler.sendMessageDelayed(mHandler.obtainMessage(
+                                LONG_PRESS),
+                                ViewConfiguration.getLongPressTimeout());
+                    }
                 }
                 break;
             case MotionEvent.ACTION_MOVE:
@@ -195,11 +206,21 @@ public class TitleBar extends LinearLayout {
                 }
                 int x = (int) event.getX();
                 int titleRight = mTitleBg.getRight();
-                if (mTitleBg.isPressed() && x > titleRight + slop) {
-                    mTitleBg.setPressed(false);
-                    mHandler.removeMessages(LONG_PRESS);
-                } else if (button.isPressed() && x < titleRight - slop) {
-                    button.setPressed(false);
+                int titleLeft = mTitleBg.getLeft();
+                if (mRTL) {
+                    if (mTitleBg.isPressed() && x < titleLeft - slop) {
+                        mTitleBg.setPressed(false);
+                        mHandler.removeMessages(LONG_PRESS);
+                    } else if (button.isPressed() && x > titleRight + slop) {
+                        button.setPressed(false);
+                    }
+                } else {
+                    if (mTitleBg.isPressed() && x > titleRight + slop) {
+                        mTitleBg.setPressed(false);
+                        mHandler.removeMessages(LONG_PRESS);
+                    } else if (button.isPressed() && x < titleRight - slop) {
+                        button.setPressed(false);
+                    }
                 }
                 break;
             case MotionEvent.ACTION_CANCEL:

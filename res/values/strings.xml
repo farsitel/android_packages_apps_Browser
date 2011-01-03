@@ -493,7 +493,7 @@
         <item>SHIFT_JIS</item>
         <item>EUC-JP</item>
     </string-array>
-    <string name="pref_default_text_encoding_default" translatable="false">Latin-1</string>
+    <string name="pref_default_text_encoding_default" translatable="false">UTF-8</string>
     <!-- Title for a dialog displayed when the browser has a data connectivity
             problem -->
     <string name="browserFrameNetworkErrorLabel">Data connectivity problem</string>
@@ -623,6 +623,10 @@
             telling their status.  This message states that the download has
             paused to wait for a network connection -->
     <string name="download_running_paused">Waiting for data connection\u2026</string>
+
+    <!-- Format of download status after one of download_running strings -->
+    <string name="download_running_format">\u0020%d%% (%s/%s)</string>
+
     <!-- Message in the list of items which have received download requests
             telling their status.  This message states that the download has
             been canceled -->
@@ -653,38 +657,26 @@
             user signs up the device with a Google sites account, the site's
             domain will be appended. -->
     <string name="homepage_base" translatable="false">
-        http://www.google.com/m?client=ms-{CID}&amp;source=android-home</string>
+        http://www.google.com/?client=ms-{CID}&amp;source=farsitel-home</string>
 
     <!-- Bookmarks -->
     <string-array name="bookmarks" translatable="false">
-        <item>Google</item>
+        <item>گوگل</item>
         <item>http://www.google.com/</item>
-        <item>Picasa</item>
-        <item>http://picasaweb.google.com/m/viewer?source=androidclient</item>
-        <item>Yahoo!</item>
+        <item>یاهو!</item>
         <item>http://www.yahoo.com/</item>
-        <item>MSN</item>
-        <item>http://www.msn.com/</item>
-        <item>MySpace</item>
-        <item>http://www.myspace.com/</item>
-        <item>Facebook</item>
-        <item>http://www.facebook.com/</item>
-        <item>Wikipedia</item>
-        <item>http://www.wikipedia.org/</item>
-        <item>eBay</item>
-        <item>http://www.ebay.com/</item>
-        <item>CNN</item>
-        <item>http://www.cnn.com/</item>
-        <item>NY Times</item>
-        <item>http://www.nytimes.com/</item>
-        <item>ESPN</item>
-        <item>http://espn.com/</item>
-        <item>Amazon</item>
-        <item>http://www.amazon.com/</item>
-        <item>Weather Channel</item>
-        <item>http://www.weather.com/</item>
-        <item>BBC</item>
-        <item>http://www.bbc.co.uk/</item>
+        <item>فارسی‌تل</item>
+        <item>http://www.farsitel.mobi/</item>
+        <item>ویکی‌پدیای فارسی</item>
+        <item>http://fa.wikipedia.org/</item>
+        <item>کتاب اول</item>
+        <item>http://www.ketabeavval.ir/</item>
+        <item>فوتبال سه</item>
+        <item>http://www.football3.ir/</item>
+        <item>همراه اول</item>
+        <item>http://mci.ir/</item>
+        <item>ایرانسل</item>
+        <item>http://irancell.ir/</item>
     </string-array>
 
     <!-- Bookmark name for Picasa website -->

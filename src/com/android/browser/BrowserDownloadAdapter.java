@@ -27,6 +27,7 @@ import android.drm.mobile1.DrmRawContent;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.provider.Downloads;
+import android.text.format.DateUtils;
 import android.text.format.Formatter;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -36,8 +37,6 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import java.text.DateFormat;
-import java.util.Date;
 import java.util.List;
 
 /**
@@ -137,11 +136,9 @@ public class BrowserDownloadAdapter extends DateSortedExpandableListAdapter {
             }
             
             long time = getLong(mDateColumnId);
-            Date d = new Date(time);
-            DateFormat df = DateFormat.getDateInstance(DateFormat.SHORT);
             tv = (TextView) convertView.findViewById(R.id.complete_date);
             tv.setVisibility(View.VISIBLE);
-            tv.setText(df.format(d));
+            tv.setText(DateUtils.getRelativeTimeSpanString(context, time, false));
             
         } else { // Download is still running
             tv = (TextView) convertView.findViewById(R.id.progress_text);
@@ -172,13 +169,12 @@ public class BrowserDownloadAdapter extends DateSortedExpandableListAdapter {
                 if (totalBytes > 0) {
                     long currentBytes = getLong(mCurrentBytesColumnId);
                     int progressAmount = (int)(currentBytes * 100 / totalBytes);
-                    sb.append(' ');
-                    sb.append(progressAmount);
-                    sb.append("% (");
-                    sb.append(Formatter.formatFileSize(context, currentBytes));
-                    sb.append("/");
-                    sb.append(Formatter.formatFileSize(context, totalBytes));
-                    sb.append(")");
+                    sb.append(
+                        r.getString(R.string.download_running_format,
+                                    progressAmount,
+                                    Formatter.formatFileSize(context, currentBytes),
+                                    Formatter.formatFileSize(context, totalBytes)
+                                    ));
                     pb.setIndeterminate(false);
                     pb.setProgress(progressAmount);
                 } else {
